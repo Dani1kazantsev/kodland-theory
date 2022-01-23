@@ -1,0 +1,94 @@
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.17vw;
+  color: $text;
+
+  & a:hover {
+    color: #cffa61;
+  }
+}
+
+.footer-info--doc {
+  gap: 10% 0;
+
+  & a:hover {
+    color: $hover;
+  }
+}
+
+.footer-info__logo {
+  background: $logo;
+  background-size: contain;
+  width: 6.5vw;
+  height: 2.2vh;
+}
+
+.footer-info span {
+  color: grey;
+}
+
+.footer-info__doc {
+  font-size: 0.8vw;
+  color: #cffa61;
+}
+
+.footer-info__title {
+  font-size: 1.7vw;
+  margin-bottom: 20%;
+}
+
+
+.footer-info__school {
+  font-weight: bold;
+  color: $text;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh 0;
+}
+
+.footer-links__item {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.footer-links__link {
+  color: $text;
+  align-self: center;
+}
+
+.footer-links__logo {
+  background: url("../img/manifest/icons/facebook.png") no-repeat;
+  background-size: contain;
+  flex: 0 0 auto;
+  width: 1.3vw;
+
+  &--inst {
+    background: url("../img/manifest/icons/inst.png") no-repeat;
+    background-size: contain;
+  }
+
+  &--vk {
+    background: url("../img/manifest/icons/vk.png") no-repeat;
+    background-size: contain;
+  }
+}
+
+.footer-info__tel {
+  font-size: 1.75vw;
+  color: $text;
+  margin-bottom: 10%;
+}
+
+.footer-info__mail {
+  color: #cffa61;
+  margin-bottom: 10%;
+}
+
+.blossom {
+  color: inherit;
+}

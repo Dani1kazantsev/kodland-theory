@@ -1,0 +1,50 @@
+.theory-main {
+  background: url("../img/manifest/back/pattern.png") no-repeat;
+  background-size: cover;
+  padding: 10% 15%;
+
+  &__block {
+    background: #3860ed;
+    padding: 6% 0;
+    border-radius: 35px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: 3.5vw;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    font-size: 1.7vw;
+    padding: 0 20%;
+  }
+
+  &__item {
+    padding: 3%;
+    background: linear-gradient(175.52deg, rgba(255, 255, 255, 0.22) -130.04%, rgba(196, 196, 196, 0) 269.56%);
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+  }
+
+  &__link {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+  }
+
+  &__link::before {
+    content: '';
+    align-self: center;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 100%;
+  }
+}

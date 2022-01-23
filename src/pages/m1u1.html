@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="img/manifest/icons/logotype-desktop.ico">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Kodland</title>
+</head>
+<body class="page__body">
+  <header class="page-header">
+    <div class="header-inner">
+      <nav class="main-nav header-inner__nav">
+        <ul class="main-nav__list site-list ulres">
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">//М1 HTML</a>
+          </li>
+          <li class="site-list__item">
+            <p class="site-list__them" href="#">//У1 Введение в HTML</p>
+          </li>
+        </ul>
+        <a href="index.html" class="main-nav__logo">
+        </a>
+      </nav>
+      <h1 class="header-inner__title">M1.У1 “Введение в HTML”</h1>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="thems">
+      <h2 class="thems__title">Основы в HTML:</h2>
+      <nav class="thems-nav">
+        <ul class="thems-nav__list thems-list ulres">
+          <li class="thems-list__item">
+            <a class="thems-list__link" id="structure__btn" href="#structure">Структура документа</a>
+          </li>
+          <li class="thems-list__item">
+            <a class="thems-list__link" id="teg__btn" href="#teg">Теги и с чем их едят</a>
+          </li>
+          <li class="thems-list__item">
+            <a class="thems-list__link" id="tegs__btn" href="#tegs">Теги: общее понятие</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="theory">
+      <ul class="theory-list ulres">
+        <li class="theory-list__items structure" id="structure">
+          <h2 class="theory-list__title">Структура html-документа</h2>
+          <div class="structure__code">
+            <pre>
+              <span><</span>!DOCTYPE html>
+              <span><</span>html lang="<span class="code--green">en</span>">
+              <span><</span>head>
+                  <span><</span>meta charset="<span class="code--green">UTF-8</span>">
+                  <span><</span>meta http-equiv="<span class="code--green">X-UA-Compatible</span>" content="<span class="code--green">IE=edge</span>">
+                  <span><</span>meta name="<span class="code--green">viewport</span>" content="<span class="code--green">width=device-width,
+                  initial-scale=1.0</span>">
+                  <span><</span>title>Document<span><</span>/title>
+              <span><</span>/head>
+              <span><</span>body>
+
+              <span><</span>/body>
+              <span><</span>/html>
+            </pre>
+          </div>
+          <p class="structure__subtitle">HTML - это язык разметки текста, при помощи которого создаются все без исключения сайты.</p>
+          <div class="structure__info">
+            <code>
+              <span class="info--blue"><span><</span>!DOCTYPE html></span> - этот тег значит, что html-документ 5 версии.<br>
+              <span class="info--blue"><span><</span>html></span> - начало<br>
+              <span class="info--blue"><span><</span>head></span> - “голова”, содержит информацию для браузера.<br>
+              <span class="info--blue"><span><</span>meta charset=”UTF-8”></span> - кодировка<br>
+              <span class="info--blue"><span><</span>title></span> - название документа вверху<br>
+              <span class="info--blue"><span><</span>body></span> - находится содержимое документа<br>
+              <span class="info--blue"><span><</span>/html></span> - конец
+            </code>
+          </div>
+          </li>
+
+          <li class="theory-list__items teg none " id="teg">
+            <h2 class="theory-list__title">Теги и с чем это едят</h2>
+            <ul class="teg-list ulres">
+              <li class="teg-list__item">
+                <img class="teg-list__teg" src="img/manifest/index/teg-b.png">
+              </li>
+              <li class="teg-list__item">
+                <p class="teg-list__subtitle-info">Тег - это специальная команда,
+                  заключенная в угловые скобки,
+                  которая сообщает браузеру, как
+                  отображать содержимое.</p>
+              </li>
+              <li class="teg-list__item">
+                <p class="teg-list__subtitle-cloud">Теги могут требовать закрытия и могут не требовать. Выше пример тега, который закрывается, для этого перед именем стоит символ /.
+                Теги, которые не требуют закрытия имеют такой вид:</p>
+              </li>
+              <li class="teg-list__item teg-list__item--flex">
+                <p class="teg-list__subtitle-img">
+                  Вставка картинки
+                </p>
+                <code class="teg-list__teg-img">
+                  <span class="info--blue"><</span><span class="info--blue">img</span><span class="code--green"> src</span><span class="info--blue">="</span>ссылка_на_картинку<span class="info--blue">"></span>
+                </code>
+              </li>
+              <li class="teg-list__item teg-list__item--center">
+                <img class="teg-list__teg" src="img/manifest/index/teg-br.png">
+              </li>
+            </ul>
+          </li>
+
+          <li class="theory-list__items tegs none" id="tegs">
+            <h2 class="theory-list__title theory-list__title--rotate">Примеры тегов</h2>
+            <div class="tegs-list">
+              <code>
+                <span class="info--blue"><span><</span>p>...<span><</span>/p></span> - абзац текста (занимает всю доступную ширину, имеет
+                  отступы сверху и снизу)<br>
+                  <br>
+                  <span class="info--blue"><span><</span>h1>...<span><</span>/h1></span> - главный заголовок
+                  (самый большой, жирный, с новойстроки)<br>
+                  <br>
+                  <span class="info--blue"><span><</span>h2>...<span><</span>/h2></span> - подзаголовок (поменьше, жирный, с новой строки)<br>
+                  <br>
+                  <span class="info--blue"><span><</span>h3><span><</span>/h3> </span>- заголовок 3-го уровня
+                  (меньше второго, жирный, с новой
+                  строки)<br>
+                  <br>
+                <span class="info--blue"><span><</span>blockquote>...<span><</span>
+                /blockquote></span> — цитата. Обычно текст сдвигается вправо.
+              </code>
+            </div>
+            <p class="tegs__subtitle">С остальными тегами вы вскоре ознакомитесь)</p>
+          </li>
+          </ul>
+          </section>
+        </main>
+        <footer class="page-footer">
+          <div class="footer-info footer-info--doc">
+            <a class="footer-info__logo" href="#"></a>
+            <span class="footer-info__rule">© Kodland, 2021</span>
+            <a class="footer-info__doc" href="https://s.kodland.org/politics" target="_blank">
+              Политика конфиденциальности
+            </a>
+            <a class="footer-info__doc" href="https://s.kodland.org/soglasie" target="_blank">
+              Согласие на обработку персональных данных
+            </a>
+            <a class="footer-info__doc" href="https://s.kodland.org/oferta" target="_blank">
+              Договор оферты
+            </a>
+          </div>
+          <div class="footer-info">
+            <h2 class="footer-info__title">О школе</h2>
+            <ul class="footer-links ulres">
+            <a class="footer-info__school" href="https://kodlandschool-196565270d3733f04140d25f2.webflow.io/#courses" target="_blank">Курсы</a>
+            <a class="footer-info__school" href="https://kodlandschool-196565270d3733f04140d25f2.webflow.io/#reviews" target="_blank">Отзывы</a>
+            <a class="footer-info__school" href="https://kodlandschool-196565270d3733f04140d25f2.webflow.io/#faq" target="_blank">FAQ</a>
+            <a class="footer-info__school" href="https://www.notion.so/kodland/Kodland-70cf526fcf6a43e685e23c3bcde1c156" target="_blank">Вакансии</a>
+            </ul>
+          </div>
+          <div class="footer-info">
+            <h2 class="footer-info__title">Соцсети</h2>
+            <ul class="footer-links ulres">
+              <li class="footer-links__item">
+                <a class="footer-links__logo footer-links__logo--facebook" href="https://www.facebook.com/kodland.school/" target="_blank" rel="noopener">
+                </a>
+                <a class="footer-links__link" href="https://www.facebook.com/kodland.school/" target="_blank" rel="noopener">facebook</a>
+              </li>
+              <li class="footer-links__item">
+                <a class="footer-links__logo footer-links__logo--inst" href="https://www.instagram.com/kodland.school/" target="_blank" rel="noopener">
+                </a>
+                <a class="footer-links__link" href="https://www.instagram.com/kodland.school/" target="_blank" rel="noopener">instagram</a>
+              </li>
+              <li class="footer-links__item">
+                <a class="footer-links__logo footer-links__logo--vk" href="https://vk.com/kodland" target="_blank" rel="noopener">
+                </a>
+                <a class="footer-links__link" href="https://vk.com/kodland" target="_blank" rel="noopener">VK</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-info">
+            <a class="footer-info__tel" href="tel:+74994907277">+7 (499) 490-7277</a>
+            <a class="footer-info__mail" href="mailto:social@kodland.org">social@kodland.org </a>
+            <span class="author">made by <a href="" class="blossom">blossom</a></span>
+          </div>
+        </footer>
+        <script src="js/scripts.min.js"></script>
+      </body>
+      </html>
+
+
+
+

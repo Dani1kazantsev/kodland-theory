@@ -1,0 +1,14 @@
+.header {
+
+  &__nav {
+    background: #3860ed;
+    padding: 2%;
+    margin: 0;
+  }
+
+  &__inner {
+    background: url(../img/manifest/back/header.png) no-repeat;
+    background-size: cover;
+    padding: 20% 8%;
+  }
+}

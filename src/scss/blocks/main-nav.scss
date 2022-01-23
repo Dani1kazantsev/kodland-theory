@@ -1,0 +1,47 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6%;
+
+  &__logo {
+    background: $logo;
+    background-size: contain;
+    align-self: center;
+    width: 6.5vw;
+    height: 2.2vh;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  &__search {
+    width: 100%;
+    background: url("../img/manifest/icons/search.svg"),
+    linear-gradient(93.86deg, rgba(255, 255, 255, 0.1357) 10%, rgba(255, 255, 255, 0) 172.3%);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    border: none;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: inherit;
+    color: inherit;
+    padding: 7% 30% 7% 10%;
+
+    &:hover,
+    &:focus {
+      border: none;
+      outline: none;
+    }
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.5);
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+    }
+
+  }
+
+}

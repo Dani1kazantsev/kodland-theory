@@ -1,0 +1,26 @@
+.thems-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.thems-list__link {
+  color: $text;
+  display: block;
+  font-weight: bold;
+  font-size: 1.7vw;
+  background: $blue;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 30px;
+   &:hover,
+  &:focus,
+  &:active {
+    background: $hover;
+  }
+}
+
+.active-btn{
+    background-color: #141f43;
+}

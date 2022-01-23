@@ -1,0 +1,54 @@
+.structure {
+  background: url(../img/manifest/back/back_1.png) no-repeat;
+  background-size: cover;
+  padding: 0 10%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.structure__code {
+  background: linear-gradient(104.9deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0) 141.1%);
+box-shadow: inset 0px 0px 13px rgba(0, 0, 0, 0.24);
+border-radius: 30px;
+padding: 3% 0;
+font-size: 1.5vw;
+margin-bottom: 2%;
+}
+
+.code--green {
+  color: #D0FA61;
+}
+
+.structure__subtitle {
+  color: $hover;
+  font-weight: bold;
+  font-size: 1.75vw;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+
+.structure__info {
+  background: $text;
+  color: #7CBCEC;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 3%;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.75vw;
+
+  & span {
+    font-size: 1.75vw;
+  }
+}
+
+
+.info--blue {
+  color: $blue;
+  font-size: 18px;
+    @media (min-width: $xl-max) {
+    font-size: 26px;
+  }
+}
