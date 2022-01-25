@@ -30,21 +30,4 @@
     box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
   }
-
-  &__link {
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    gap: 3%;
-  }
-
-  &__link::before {
-    content: '';
-    align-self: center;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    border-radius: 100%;
-  }
 }
