@@ -22,7 +22,7 @@ function CloseAnimate(index) {
 
 // eslint-disable-next-line no-unused-vars
 function spoilerOpen(index) {
-  for (let i = 0; i < 32; i++) {
+  for (let i = 1; i < 33; i++) {
     if (i === index) {
       let lessonBlock = document.querySelector(".theory-main__item" + index);
       let lessonBlockLi = document.querySelector(".theory-main__link" + index);
@@ -44,7 +44,7 @@ function spoilerOpen(index) {
         lessonBlock.classList.remove("close");
         lessonSpoilerBlock.style.height = "auto";
         lessonSpoilerBlock.style.display = "flex";
-        lessonSpoilerBlock.style.padding = "3% 8%";
+        lessonSpoilerBlock.style.padding = "0 8% 3% 8%";
         lessonSpoilerText.style.fontSize = "1.2vw";
         lessonSpoilerText.style.marginBottom = "5%";
         lessonSpoilerText.style.display = "block";

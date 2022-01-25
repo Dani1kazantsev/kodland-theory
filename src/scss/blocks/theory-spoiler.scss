@@ -1,15 +1,16 @@
 
-#theory-main__link {
+.theory-main__link {
   cursor: pointer;
   color: #fff;
   display: flex;
   flex-direction: row;
   transition: 100ms;
-  gap: 3%
+  gap: 3%;
+  padding: 3%;
 
 }
 
-#theory-main__link:hover {
+.theory-main__link:hover {
   color: #d0fa61;
 }
 

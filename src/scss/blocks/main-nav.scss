@@ -18,18 +18,19 @@
   }
 
   &__search {
-    width: 100%;
-    background: url("../img/manifest/icons/search.svg"),
-    linear-gradient(93.86deg, rgba(255, 255, 255, 0.1357) 10%, rgba(255, 255, 255, 0) 172.3%);
-    background-repeat: no-repeat;
-    background-position: 90%;
-    border: none;
-    flex: 0 0 auto;
-    box-sizing: border-box;
+    background: linear-gradient(93.86deg, rgba(255, 255, 255, 0.1357) 10%, rgba(255, 255, 255, 0) 172.3%);
     border-radius: 20px;
+    display: flex;
+    gap: 5%;
+    padding: 0.5% 1.5%;
+  }
+
+  &__search-input {
+    background: none;
+    border: none;
+    box-sizing: border-box;
     font-family: inherit;
     color: inherit;
-    padding: 7% 30% 7% 10%;
 
     &:hover,
     &:focus {
@@ -41,7 +42,16 @@
       color: rgba(0, 0, 0, 0.5);
       border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
     }
-
   }
 
+  &__searching {
+    background-size: contain;
+    background: url("../img/manifest/icons/search.svg") no-repeat center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    outline: none;
+  }
 }
