@@ -1,3 +1,3 @@
-#src/index.html Kodland Theory
+#Kodland Theory
 
 Теория Kodland
